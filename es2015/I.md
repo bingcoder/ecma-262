@@ -65,8 +65,32 @@ http://www.ecma-international.org/publications/standards/Ecma-404.htm
 
 ECMAScript 是在宿主环境里执行计算和操作计算对象的面向对象语言。这里定义的ECMAScript 不是说要在计算上自给自足，实际上这份标准没有规定外部数据的输入和计算结果的输出。相反，希望 ECMAScript 程序的执行环境不仅提供规范中描述的对象和其他设施，也提供超出本标准规定的描述和行为的特定环境对象。except to 它们能提供某些被 ECMAScript 访问的属性和能被调用的方法。
 
+ECMAScript 最初被设计作为脚本语言，但慢慢被广泛使用作为通用程序语言。脚本语言是用来操作、定制和自动处理现有系统设施的。在这样的系统里有用的程序已经可以通过用户界面使用，脚本语言是一个暴露这些功能给程序控制的机制。使用这种方式，这个现有系统被称为完成脚本语言能力提供对象和设备的宿主环境。脚本语言用来给专业和非专业程序员使用。
+
+ECMAScript 最初被设计作为 Web 脚本语言，使浏览器里的网页生动和进行一部分基于 Web 的 B/S 模型的服务端计算。ECMAScript 现在被用作为不同宿主环境提供核心脚本功能，因此，此文档指定的是除了特定环境之外的语言核心。
+
+ECMAScript 的使用已经超过简单的脚本，现在被用在许多不同环境和规模的编程任务。随着它使用的不断扩大，它的特性和功能也不断增加。ECMAScript 现在是通用编程语言。
+
+ECMAScript 的一些功能像其他的一些语言，特别是 C、Java、Self、和Scheme，如下：
+
+ISO/IEC 9899:1996, *Programming Languages – C*.
+
+Gosling, James, Bill Joy and Guy Steele. *The Java™ Language Specification*. Addison Wesley Publishing Co., 1996.
+
+Ungar, David, and Smith, Randall B. Self: The Power of Simplicity. *OOPSLA '87 Conference Proceedings*, pp. 227–241, Orlando, FL, October 1987.
+
+*IEEE Standard for the Scheme Programming Language*. IEEE Std 1178-1990.
+
+
+
 - object-oriented programming （OOP）
 - host environment 宿主环境
 - indeed 事实上、实际 adv
 - external 外部的
 - expected 预期的
+- mechanism 机制
+- capability  能力（ies）
+- specify 指定
+- apart from 除了
+-  in particular尤其
+- 
